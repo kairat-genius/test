@@ -1,0 +1,163 @@
+.material-icons {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    line-height: 100%;
+    user-select: none;
+}
+
+.menubox {
+    position: relative;
+    display: inline-block;
+    transform-origin: top center;
+    overflow: visible;
+    border-radius: 6px;
+    transition: border-radius 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.3s ease;
+    background-color: #1a1a1a;
+    border: 1px solid #404040;
+}
+
+.menubox:focus,
+.menubox:focus-within {
+    outline: none;
+    border-color: #4d8bff;
+    box-shadow: 0 0 0 0.1rem rgba(77, 139, 255, 0.25);
+}
+
+.menubox.menubox--collapsed {
+    border-radius: 50px;
+}
+
+.menubox__label {
+    position: relative;
+    color: #e6e6e6;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.05rem;
+    padding: 0.625rem 3rem 0.625rem 1rem;
+    background: #2d2d2d;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: border-radius 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.3s ease;
+}
+
+.menubox.menubox--collapsed .menubox__label {
+    border-radius: 50px;
+}
+
+.menubox__label-text {
+    line-height: 100%;
+    margin-left: 0.55rem;
+    transition: color 0.3s ease;
+}
+
+.menubox__label::after {
+    content: '';
+    width: 0;
+    height: 0;
+    right: 1rem;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    border-color: #e6e6e6 transparent transparent transparent;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menubox.menubox--collapsed .menubox__label::after {
+    transform: rotateZ(-180deg);
+}
+
+.menubox__contents {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    right: 0;
+    padding: 0.5rem 0;
+    background: #2d2d2d;
+    border-radius: 6px;
+    border: 1px solid #404040;
+    z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scaleY(1);
+    transform-origin: top center;
+    transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.25s linear,
+    transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menubox__contents--collapsed {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px) scaleY(0.95);
+}
+
+.menubox__options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menubox__option {
+    position: relative;
+}
+
+.menubox__option:not(:first-child) {
+    margin-top: 2px;
+}
+
+.menubox__option-label {
+    position: relative;
+    color: #e6e6e6;
+    transition: all 0.2s ease;
+    z-index: 1;
+    user-select: none;
+}
+
+.menubox__option-toggle {
+    display: block;
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    animation: entrance 0.4s ease-out forwards;
+    opacity: 0;
+    transform: translateY(-5px);
+}
+
+@keyframes entrance {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.menubox__option-toggle::before {
+    content: '';
+    position: absolute;
+    width: calc(100% - 1rem);
+    height: calc(100% - 4px);
+    left: 0.5rem;
+    top: 2px;
+    border-radius: 4px;
+    background: #404040;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: opacity 0.2s ease,
+    transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menubox__option-toggle:hover::before,
+.menubox__option-toggle:focus-within::before {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.menubox__option-toggle:hover .menubox__option-label {
+    color: #ffffff;
+}

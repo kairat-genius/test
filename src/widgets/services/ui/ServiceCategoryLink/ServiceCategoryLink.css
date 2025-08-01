@@ -1,0 +1,59 @@
+
+
+
+.elementor-element.elementor-element-4d50344 .elementor-button {
+    background-color: var(--e-global-color-fd18c0a);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: var(--e-global-typography-text-line-height);
+    fill: var(--e-global-color-secondary);
+    color: var(--e-global-color-secondary);
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: var(--e-global-color-1f51f06);
+    border-radius: 0px 0px 0px 0px;
+    padding: 0px 0px 15px 0px;
+}
+
+ .elementor-element.elementor-element-4d50344>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+ .elementor-element.elementor-element-4d50344 .elementor-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+
+ .elementor-element.elementor-element-4d50344 .elementor-button .elementor-button-content-wrapper {
+    justify-content: space-between;
+}
+
+ .elementor-element.elementor-element-4d50344 .elementor-button:hover,
+ .elementor-element.elementor-element-4d50344 .elementor-button:focus {
+    color: var(--e-global-color-accent);
+}
+
+ .elementor-element.elementor-element-4d50344 .elementor-button:hover svg,
+ .elementor-element.elementor-element-4d50344 .elementor-button:focus svg {
+    fill: var(--e-global-color-accent);
+}
+
+@media(max-width:1024px) {
+
+    .elementor-element.elementor-element-4d50344 .elementor-button {
+       font-size: var(--e-global-typography-text-font-size);
+       line-height: var(--e-global-typography-text-line-height);
+   }
+
+}
+
+
+
+@media(max-width:767px) {
+
+    .elementor-element.elementor-element-4d50344 .elementor-button {
+       font-size: var(--e-global-typography-text-font-size);
+       line-height: var(--e-global-typography-text-line-height);
+   }
+}

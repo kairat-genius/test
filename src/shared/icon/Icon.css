@@ -1,0 +1,21 @@
+.icon {
+    height: 1em;
+    width: 100%;
+}
+
+.icon.left{
+    transform: rotate(90deg);
+}
+
+.icon.right {
+    transform: rotate(-90deg);
+}
+
+.icon.bottom{
+    transform: rotate(180deg);
+}
+
+.icon.top {
+    transform: rotate(-180deg);
+}
+

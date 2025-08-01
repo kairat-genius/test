@@ -1,0 +1,66 @@
+.arrow_button span {
+    display: inline-block;
+    position: relative
+}
+
+.arrow_button span.hover-gradient:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition-duration: inherit;
+    transition-duration: inherit
+}
+
+.arrow_button:hover span.hover-gradient:before {
+    opacity: 1
+}
+
+.arrow_button span {
+    background-color: var(--e-global-color-accent);
+    color: var(--e-global-color-secondary);
+    padding: 8px 16px 6px 14px;
+    margin: 0px 0px 20px 10px;
+    border-radius: 100% 100% 100% 100%;
+    opacity: 100%;
+}
+
+.arrow_button:hover span:not(.hover-gradient),
+.arrow_button span.hover-gradient:before {
+    background-color: var(--e-global-color-98b380f);
+}
+.arrow_button i {
+    font-size: 14px;
+}
+
+.arrow_button svg {
+    width: 14px;
+    fill: var(--e-global-color-secondary);
+}
+
+.arrow_button:hover span {
+    color: var(--e-global-color-primary);
+}
+
+.arrow_button:hover svg {
+    fill: var(--e-global-color-primary);
+}
+
+.arrow_button i,
+.arrow_button svg {
+    position: relative;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease
+}
+
+.arrow_button{
+    color: var(--jkit-txt-color);
+    border: 0;
+    background-color: transparent!important;
+    display: inline-block;
+    margin: 0;
+    padding: 0!important
+}

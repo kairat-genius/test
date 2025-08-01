@@ -1,0 +1,65 @@
+.ekit_social_media > li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.ekit_social_media > li > a {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+}
+
+.elementor-repeater-item-c19d017 > a {
+    color: var(--e-global-color-secondary);
+    background-color: var(--e-global-color-accent);
+}
+.ekit_social_media > li > a i {
+    font-size: 16px;
+}
+
+.ekit_social_media {
+    text-align: left;
+}
+
+.ekit_social_media .ekit_social_media, .ekit_social_media .ekit_socialshare {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.ekit_social_mediali, .ekit_social_media ul {
+    margin: 0;
+    padding: 0;
+}
+
+.elementor-757 .elementor-element.elementor-element-ac191d6 .ekit_social_media > li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.elementor-757 .elementor-element.elementor-element-ac191d6 .ekit_social_media > li > a {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+}
+
+.elementor-757 .elementor-element.elementor-element-ac191d6 .elementor-repeater-item-c19d017 > a {
+    color: var(--e-global-color-secondary);
+    background-color: var(--e-global-color-accent);
+}
+.ekit_social_media > li > a, .ekit_social_media .ekit_socialshare > li > a {
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.ekit_social_media a:active, .ekit_social_media a:focus, .ekit_social_mediaa:hover, .ekit_social_media a:visited {
+    text-decoration: none;
+    outline: 0;
+}

@@ -1,0 +1,140 @@
+.elementor-element.elementor-element-d1fc8fc {
+    --display: flex;
+    --overflow: hidden;
+    --background-transition: 0.3s;
+}
+
+.elementor-element.elementor-element-7d8999f {
+    --display: flex;
+    --background-transition: 0.3s;
+    border-style: solid;
+    --border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    --border-top-width: 1px;
+    --border-right-width: 1px;
+    --border-bottom-width: 1px;
+    --border-left-width: 1px;
+    border-color: var(--e-global-color-1f51f06);
+    --border-color: var(--e-global-color-1f51f06);
+    --border-radius: 10px 10px 10px 10px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 32px;
+    --padding-bottom: 32px;
+    --padding-left: 32px;
+    --padding-right: 32px;
+}
+
+ .elementor-element.elementor-element-7d8999f,
+ .elementor-element.elementor-element-7d8999f::before {
+    --border-transition: 0.3s;
+}
+
+
+.elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article {
+    text-align: left;
+    border-radius: 0px 0px 0px 0px;
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .jkit-postlist-title {
+    text-align: left;
+    color: var(--e-global-color-secondary);
+    transition-duration: 0.5s;
+    padding: 0px 0px 0px 0px;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: var(--e-global-typography-text-line-height);
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article:hover a .jkit-postlist-title {
+    color: var(--e-global-color-98b380f);
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a img {
+    width: 85px;
+    margin: 0px 15px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists {
+    text-align: left;
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists span {
+    font-family: var(--e-global-typography-8874037-font-family), Sans-serif;
+    font-size: var(--e-global-typography-8874037-font-size);
+    font-weight: var(--e-global-typography-8874037-font-weight);
+    line-height: var(--e-global-typography-8874037-line-height);
+    color: var(--e-global-color-271665a);
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists span i {
+    font-size: 12px;
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists span svg {
+    width: 12px;
+    fill: var(--e-global-color-271665a);
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists span i,
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists span svg {
+    margin-right: 5px;
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postblock .jeg_empty_module {
+    text-align: left;
+}
+
+@media(max-width:1024px) {
+    .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .jkit-postlist-title {
+       font-size: var(--e-global-typography-text-font-size);
+       line-height: var(--e-global-typography-text-line-height);
+   }
+
+    .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists span {
+       font-size: var(--e-global-typography-8874037-font-size);
+       line-height: var(--e-global-typography-8874037-line-height);
+   }
+}
+
+
+@media(max-width:767px) {
+    .elementor-element.elementor-element-7d8999f {
+       --padding-top: 24px;
+       --padding-bottom: 24px;
+       --padding-left: 24px;
+       --padding-right: 24px;
+   }
+
+   .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .jkit-postlist-title {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+}
+
+ .elementor-element.elementor-element-9eafe2b .jeg-elementor-kit.jkit-postlist article a .meta-lists span {
+    font-size: var(--e-global-typography-8874037-font-size);
+    line-height: var(--e-global-typography-8874037-line-height);
+}
+
+}
+
+@media(min-width:768px) {
+    .elementor-element.elementor-element-d1fc8fc {
+       --width: 30%;
+   }
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-element.elementor-element-d1fc8fc {
+       --width: 100%;
+   }
+}
